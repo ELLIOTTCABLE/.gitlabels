@@ -51,9 +51,10 @@ instance:
     
     	(doc closes:1234 see:b3b2e05 -) I love pretty much anything that comes from pigflesh.
     
-This commit’s labels comprises `(doc)`, `(fix)`, and `(-)`; in this example, perhaps, these could mean that this
-commit comprises an unimportant (in the larger scheme of things) change to some documentation that fixes some
-typos or something.
+This commit’s labels comprises `(doc)`, `(closes)`, `(see)`, and `(-)`; in this example, perhaps, these could
+mean that this commit comprises an unimportant (in the larger scheme of things) change to some documentation that
+fixes some typos or something. Those typos would have been reported in the project’s issue tracker as issue
+number 1234; the other commit whose ID began with b3b2e05 was somehow relevant as well.
 
 Labels may include a single argument, if described by the `.gitlabels`, which documents a related piece of data.
 These arguments may only be of a limited set of data types (defined by whatever label-parsing system you use, but
