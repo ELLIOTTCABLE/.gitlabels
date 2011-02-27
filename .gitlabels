@@ -1,0 +1,11 @@
+# (What is this? Visit: https://github.com/elliottcable/.gitlabels)
+
+- (new) indicates new content or features are introduced
+- (fix) indicates changes that fix outstanding bugs or problems
+- (re) indicates a commit that subtly changes something for the better (short for ‘refactor’)
+
+- (-) indicates a relatively minor or unimportant commit
+
+- (noop) indicates a commit that does *not* modify any code, in any way
+  - (style) indicates a commit that only changes alignment/spacing/visual orientation of code or documentation (as (noop))
+  - (doc) indicates commits that change commentary, documentation, etc (exclusive of actual *executed* code) (as (noop))
