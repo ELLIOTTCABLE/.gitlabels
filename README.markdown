@@ -1,11 +1,12 @@
 What is this?
 =============
-`.gitlabels` is a file that defines a series of “labels” that can be applied to [git][] commits.
+[`.gitlabels`][gh] is a file that defines a series of “labels” that can be applied to [git][] commits.
 
 Each label is intended to “describe” a given commit in a human- and machine-readable way. These can then be used
 to search and filter commit lists, to bring more ‘signal’ out of the changeset ‘noise.’
 
   [git]: <http://git-scm.com/> "Git: *Fast* version-control and source-code management system"
+  [gh]: <http://github.com/elliottcable/.gitlabels> "The .gitlabels project"
 
 Examples
 --------
