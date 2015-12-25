@@ -135,7 +135,7 @@ commit:
    Thus, labels can retroactively be assigned to a commit *without* changing its commit-hash as
    follows:
 
-        git notes --ref=labels add -m 'closes:#1234' -m 'see:b3b2e05'
+        git notes --ref=labels append -m 'closes:#1234' -m 'see:b3b2e05'
 
 However, while allowed, both of these are **strongly discouraged**, for various reasons. (Amongst
 others, a huge part of the point of `.gitlabels` are to move this metadata into a visually-obvious
