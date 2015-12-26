@@ -102,7 +102,7 @@ In addition to the `(gitlabel syntax)` described above to be used at the *start*
 message, there are two other locations in which one can encode labels for use on a particular
 commit:
 
- - Pseudo-slashtags: When using longer label names, or for labels which are *relevant enough to
+ - Pseudo-[slashtags][]: When using longer label names, or for labels which are *relevant enough to
    include* but are of only infrequent interest to repository consumers, you can move such to the
    *very end* of a commit message, and place them on a line of their own, preceded by a `/`:
 
@@ -365,7 +365,7 @@ or for dislocated metadata:
 Licensing
 ---------
 The above text is released for public usage under the terms of the Creative Commons [CC-BY 4.0][]
-license; more information is available in [OPYING][].
+license; more information is available in [COPYING][].
 
 I intend for this effort to be as widely useful as is possible; if that license is in any way too
 restrictive for your purposes, please let me know. There's a good chance I'll be willing to provide
